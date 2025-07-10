@@ -1,8 +1,8 @@
 export function Built() {
     const featuredProjects = [
         {
-           
-            img: "/Projects/space-tourism-website.png",
+
+            img: "Projects/space-tourism-website.png",
             title: "Space Tourism Website",
             desc: `A responsive, multi-page frontend build for a space tourism brand — focused on clean layouts, design fidelity, and mobile-first responsiveness.`,
             stack: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJS"],
@@ -10,11 +10,11 @@ export function Built() {
             github: "https://github.com/RodneyTakundaMadondo/space-tourism-site.git"
         },
         {
-           
-            img: "/Projects/fullstacktodo.jpg",
+
+            img: "Projects/fullstacktodo.jpg",
             title: "Todo App",
             desc: `A fullstack To Do app built with ASP.NET Core MVC and SQL — focused on CRUD operations, clean architecture, and data persistence.`,
-            stack: ["HTML", "CSS", "JavaScript","SQL", "C#", "ASP.NET Core"],
+            stack: ["HTML", "CSS", "JavaScript", "SQL", "C#", "ASP.NET Core"],
             livelink: "https://fullstack-todoapp-g3xo.onrender.com",
             github: "https://github.com/RodneyTakundaMadondo/Fullstack-TodoApp.git"
         }
@@ -39,7 +39,7 @@ export function Built() {
                                  ">
 
                                 <a
-                                // opacity-25
+                                    // opacity-25
                                     href={project.livelink}
                                     target="_blank"
                                     className=" hover:cursor-pointer block w-full h-full absolute md:relative mr-auto left-0  bg-contain  bg-no-repeat bg-center  row-span-2 opacity-25 md:opacity-100
@@ -60,8 +60,8 @@ export function Built() {
                                 </a>
 
                                 <div className="relative space-y-4 z-10 w-[80%] text-[var(--text-secondary)]   md:space-y-2 md:w-full col-start-2 md:text-right">
-                           
-                                     <p className=" font-medium md:bg-[#162035] md:px-4  ">
+
+                                    <p className=" font-medium md:bg-[#162035] md:px-4  ">
                                         {project.desc}
                                     </p>
                                     <ul className="flex md:justify-end flex-wrap gap-2  font-medium text-sm ">
@@ -71,12 +71,12 @@ export function Built() {
                                                     key={index}
                                                 >
                                                     {lang}
-                                                    
+
                                                 </li>
                                             ))
                                         }
                                     </ul>
-                                   
+
                                 </div>
 
                             </div>

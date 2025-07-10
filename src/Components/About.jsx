@@ -31,7 +31,7 @@ export function About() {
                         </div>
                         <div className="flex justify-center relative z-10">
                             <div className="image-wrapper  w-[15rem] h-[15rem]">
-                                <img src="/suit.jpeg" alt="Rodney Madondo" />
+                                <img src="suit.jpeg" alt="Rodney Madondo" />
                             </div>
                             <div className="box absolute h-[15rem] w-[15rem] top-4 left-[50%] -translate-x-[45%]  -z-10 "></div>
                         </div>
