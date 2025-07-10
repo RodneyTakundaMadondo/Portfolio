@@ -80,7 +80,7 @@ export function Header() {
                         </li>
                         <li className="">
                             <a
-                                href="/cvlatest.pdf"
+                                href="cvlatest.pdf"
                                 className="resume-btn border-solid rounded-[5px] border-2 border-[#8864d5] text-[#8864d5] z-10  w-[7.5rem] h-[2.5rem] flex justify-center items-center md:w-[5.5rem]">
                                 Resume
                             </a>
