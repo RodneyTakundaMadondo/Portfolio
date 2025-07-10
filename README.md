@@ -19,6 +19,6 @@ To run locally:
 3. Run `npm run dev`
 
 ## Live Demo
-[https://yourdomain.com](https://yourdomain.com)
+[https://rodneytakundamadondo.github.io/Portfolio/]
 
 
