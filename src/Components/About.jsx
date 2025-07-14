@@ -1,7 +1,19 @@
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
 export function About() {
+    useEffect(() => {
+        ScrollReveal().reveal('.reveal', {
+            origin: 'bottom',
+            distance: '20px',
+            duration: 1000,
+            delay: 200,
+            reset: false,
+            easing: 'ease-in-out'
+        });
+    }, []);
     return (
         <>
-            <section className="text-[var(--text-secondary)] ">
+            <section className="text-[var(--text-secondary)] reveal ">
                 <div className="w-[min(calc(100%-2rem),60rem)] md:w-[min(calc(100%-4rem),60rem)] mx-auto space-y-8 md:px-16 ">
 
                     <h2 className="before:content-['01.'] before:text-xl text-xl before:absolute before:left-0 before:bg-[image:var(--lingrad)] before:inline-block before:text-transparent before:bg-clip-text relative pl-8 capitalize ">About me</h2>

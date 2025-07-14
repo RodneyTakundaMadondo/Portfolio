@@ -1,4 +1,6 @@
+
 export function Intro() {
+
     return (
         <section className="">
             <div className="flex flex-col px-4 space-y-8 md:w-[min(calc(100%-4rem),60rem)] md:mx-auto md:px-16 ">
