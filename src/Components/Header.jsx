@@ -63,20 +63,28 @@ export function Header() {
 
                     <ol className="mt-[6rem] flex flex-col items-center text-center side-ordered-list md:flex-row md:mt-0 md:text-start md:justify-between  ">
                         <li className="">
-                            <span className="">01.</span>
-                            About
+                            <a href="#about">
+                                <span className="">01.</span>
+                                About
+                            </a>
                         </li>
                         <li className="">
-                            <span className="">02.</span>
-                            Experience
+                            <a href="#experience">
+                                <span className="">02.</span>
+                                Experience
+                            </a>
                         </li>
                         <li className="">
-                            <span className="">03.</span>
-                            Work
+                            <a href="#work">
+                                <span className="">03.</span>
+                                Work
+                            </a>
                         </li>
                         <li className="">
-                            <span className="">04.</span>
-                            Contact
+                            <a href="#contact">
+                                <span className="">04.</span>
+                                Contact
+                            </a>
                         </li>
                         <li className="">
                             <a

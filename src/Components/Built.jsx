@@ -22,7 +22,7 @@ export function Built() {
     ]
     return (
 
-        <section className="text-[var(--text-secondary)] ">
+        <section className="text-[var(--text-secondary)] " id="work">
             <div className="w-[min(calc(100%-2rem),60rem)] md:w-[min(calc(100%-4rem),60rem)] mx-auto space-y-8 md:px-16 ">
 
                 <h2 className="before:content-['03.'] before:text-xl text-xl before:absolute before:left-0 before:bg-[image:var(--lingrad)] before:inline-block before:text-transparent before:bg-clip-text relative pl-8 capitalize ">

@@ -9,7 +9,7 @@ export function Work() {
     }
 
     return (
-        <section className="text-[var(--text-secondary)] ">
+        <section className="text-[var(--text-secondary)] " id="experience">
             <div className="wrapper ">
                 <div className="w-[min(calc(100%-2rem),60rem)] md:w-[min(calc(100%-4rem),60rem)] mx-auto space-y-8 md:px-16 ">
 

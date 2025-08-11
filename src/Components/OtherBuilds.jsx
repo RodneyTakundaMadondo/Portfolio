@@ -59,7 +59,7 @@ export function OtherBuilds() {
                 <h3 className="  text-[var(--text-secondary)] font-bold text-2xl">
                     Other Noteworthy Projects
                 </h3>
-                <a className="special-text font-bold text-lg hover:underline" href="#">view the achive</a>
+                <a className="special-text font-bold text-lg hover:underline" >view the achive</a>
             </div>
             {/* w-[min(calc(100%-3rem),60rem)] */}
             <div className="projects px-4 max-w-[70rem] md:px-16 xl:px-0  lg w-auto  md:mx-auto   grid grid-cols-1 gap-4 sm:grid-cols-2 justify-items-center lg:grid-cols-3 ">

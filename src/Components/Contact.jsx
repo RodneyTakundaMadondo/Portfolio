@@ -3,7 +3,7 @@ export function Contact() {
     const domain = "gmail.com";
     const email = `${user}@${domain}`;
     return (
-        <section className="space-y-4">
+        <section className="space-y-4" id="contact">
             <div className="flex flex-col items-center gap-3 justify-center">
                 <h2 className="before:content-['04.'] before:text-xl  text-xl before:absolute before:left-0 before:bg-[image:var(--lingrad)] before:inline-block before:text-transparent before:bg-clip-text relative pl-8 capitalize special-text ">
                     What's Next?
